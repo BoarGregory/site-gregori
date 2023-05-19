@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{ background-color: rgb(223, 16, 16)}
+       body{font: 50pt Arial}
+       body{color:blue}
+       
+
+
+    </style>
+</head>,b 
+<body>
+    
+    <h1>
+        um dia normal sobre o java scrit kkkk 
+        
+    </h1>
+
+
+</body>
+<form name="formCadastro" onsubmit="return validarFormulario()" method="post">
+    <label for="nome">Informe o seu Nome:</label>
+    <input type="text" name="nome">
+    <input type="submit" value="Enviar">
+</form>
+<script>
+    function validarFormulario(){
+        var nomePessoa = document.forms["formCadastro"]["nome"].value;
+        if (nomePessoa == "") {
+            alert("Favor informar o seu nome!");
+            return false;     
+        }
+        else{
+            alert("Olá, " + nomePessoa + " !");
+            return true;
+        }
+    }
+</script>
+</html>

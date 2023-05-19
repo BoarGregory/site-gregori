@@ -1,0 +1,11 @@
+header{
+    background-color: aqua;
+    color: aliceblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.medica{
+    width: 50%
+}
