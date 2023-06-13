@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+}
 .cabecalho{
-    background-color: #7a3150;
-    color: #ef81a0;
+    background-color: #4e1923;
+    color: #dd5876;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,4 +22,43 @@
     font-size: 24px;
    display: inline-block;
    margin: 0 16px;
+}
+.escola-imagem{
+    width: 25%;
+
+}
+.escola{
+    background-image: linear-gradient(#4e1923,#000000) ;
+    color:#dd5876;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.escola-div.contexto{
+    width: 35%;
+    font: Arial;
+}
+.escola-titulo{
+    padding: 24px  0;
+    
+}
+.estudante-imagem{
+   width: 120px;
+
+}
+.estudante-icon{
+    width: 24px;
+    
+}
+.estudante-div-contexto{
+    text-align: center;
+}
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+.estudante-todos{
+ display: grid;
+ grid-template-columns: 20% 20% 20% 20% 20%;
 }
